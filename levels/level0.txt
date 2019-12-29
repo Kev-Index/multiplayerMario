@@ -1,0 +1,67 @@
+*************************************************************************
+* Note: 							        *
+*       								*
+*	The formal of the file after the last row of *:			*
+*									*
+*		(empty line)						*
+*		(type, either item_block, green_tube, or landing)	*
+*		(xLoc)							*
+*		(yLoc)							*
+*		if you said green tube or landing say type (1, 2, or 3)	*
+*		(type)							*
+*		(xLoc)							*
+*		(yLoc)							*
+*		(potentially 1, 2, or 3. If not, start next element)	*
+*		(if green tube, true if you want a fly trap, else false)*
+*									*
+*							        	*
+*	Leave 1 line of space between the last line of * the first item *
+*	Also make sure there ISN'T an extra line after the last value.  *
+*       After a green tube or landing, specify which type: 1, 2, or 3   *
+*	after indicating the yLoc					*
+*	1 = small, 2 = medium, and 3 = large   				*
+*                         						*
+*	For landings at ground level:    (1 is at 610) (2 is at 560) 	*
+*				         (3 is at 459)			*
+*	For green tubes at ground level: (1 is at 597) (2 is at 549)	*
+*					 (3 is at 502)			*
+*	The typical yLoc for item blocks is 480				*
+*************************************************************************
+
+2000
+item_block
+300
+480
+green_tube
+200
+597
+1
+false
+green_tube
+400
+549
+2
+false
+green_tube
+300
+502
+3
+true
+landing
+450
+459
+3
+landing
+550
+560
+2
+landing
+650
+610
+1
+solid_item_block
+900
+650
+item_block
+800
+650

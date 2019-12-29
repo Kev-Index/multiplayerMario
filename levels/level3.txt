@@ -1,0 +1,222 @@
+*************************************************************************
+* Note: 							        *
+*       								*
+*	The formal of the file after the last row of *:			*
+*									*
+*		(empty line)						*
+*		(type, either item_block, green_tube, or landing)	*
+*		(xLoc)							*
+*		(yLoc)							*
+*		if you said green tube or landing say type (1, 2, or 3)	*
+*		(type)							*
+*		(xLoc)							*
+*		(yLoc)							*
+*		(potentially 1, 2, or 3. If not, start next element)	*
+*		(if green tube, true if you want a fly trap, else false)*
+*									*
+*							        	*
+*	Leave 1 line of space between the last line of * the first item *
+*	Also make sure there ISN'T an extra line after the last value.  *
+*       After a green tube or landing, specify which type: 1, 2, or 3   *
+*	after indicating the yLoc					*
+*	1 = small, 2 = medium, and 3 = large   				*
+*                         						*
+*	For landings at ground level:    (1 is at 610) (2 is at 560) 	*
+*				         (3 is at 459)			*
+*	For green tubes at ground level: (1 is at 597) (2 is at 549)	*
+*					 (3 is at 502)			*
+*									*
+*	The typical yLoc for item blocks is 550				*
+*************************************************************************
+
+5200
+solid_item_block
+300
+480
+solid_item_block
+332
+480
+green_tube
+364
+549
+2
+true
+green_tube
+375
+597
+1
+true
+item_block
+375
+550
+landing
+450
+459
+3
+solid_item_block
+650
+480
+green_tube
+800
+502
+3
+true
+solid_item_block
+950
+480
+solid_item_block
+950
+600
+green_tube
+1100
+502
+3
+true
+solid_item_block
+1250
+400
+solid_item_block
+1450
+400
+green_tube
+1650
+502
+3
+false
+item_block
+1300
+550
+item_block
+1500
+550
+landing
+1700
+459
+3
+landing
+1780
+610
+1
+landing
+1900
+560
+2
+landing
+2100
+459
+3
+green_tube
+2150
+502
+3
+true
+green_tube
+2250
+549
+2
+true
+green_tube
+2350
+597
+1
+false
+green_tube
+2500
+549
+2
+false
+solid_item_block
+2650
+400
+green_tube
+2800
+549
+2
+false
+green_tube
+2950
+502
+3
+true
+green_tube
+3100
+597
+1
+false
+item_block
+3176
+500
+solid_item_block
+3208
+500
+item_block
+3240
+500
+solid_item_block
+3272
+500
+item_block
+3304
+500
+landing
+3540
+459
+3
+green_tube
+3740
+502
+3
+true
+green_tube
+3840
+502
+3
+true
+landing
+3950
+560
+2
+landing
+4150
+459
+3
+green_tube
+4300
+504
+3
+true
+green_tube
+4400
+549
+2
+true
+solid_item_block
+4550
+500
+solid_item_block
+4646
+500
+landing
+4700
+459
+3
+green_tube
+4850
+549
+2
+true
+green_tube
+4910
+502
+3
+true
+green_tube
+5000
+549
+3
+true
+
+
+
+
+
